@@ -1,9 +1,9 @@
 import 'dart:io';
 
 import 'package:color/color.dart';
-import 'package:flutter_native_splash/constants.dart';
-import 'package:flutter_native_splash/exceptions.dart';
-import 'package:flutter_native_splash/templates.dart' as templates;
+import 'package:flutter_splash_countdown/constants.dart';
+import 'package:flutter_splash_countdown/exceptions.dart';
+import 'package:flutter_splash_countdown/templates.dart' as templates;
 import 'package:image/image.dart';
 
 // Image template
@@ -407,8 +407,8 @@ Future _getMainActivityKotlinPath() async {
 bool _needToUpdateMainActivity(String language, List<String> lines) {
   bool foundExisting = false;
 
-  String javaLine = 'boolean flutter_native_splash = true;';
-  String kotlinLine = 'val flutter_native_splash = true';
+  String javaLine = 'boolean flutter_splash_countdown = true;';
+  String kotlinLine = 'val flutter_splash_countdown = true';
 
   for (int x = 0; x < lines.length; x++) {
     String line = lines[x];

@@ -11,7 +11,7 @@ public class MainActivity extends FlutterActivity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    boolean flutter_native_splash = true;
+    boolean flutter_splash_countdown = true;
     getWindow().setStatusBarColor(0x00000000);
 
     GeneratedPluginRegistrant.registerWith(this);

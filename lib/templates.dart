@@ -57,7 +57,7 @@ const String androidMainActivityJavaImportLines3 =
     'import android.view.WindowManager;';
 
 const String androidMainActivityJavaLines2WithStatusBar = '''
-    boolean flutter_native_splash = true;
+    boolean flutter_splash_countdown = true;
     int originalStatusBarColor = 0;
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
         originalStatusBarColor = getWindow().getStatusBarColor();
@@ -87,7 +87,7 @@ const String androidMainActivityKotlinImportLines3 =
     'import android.view.WindowManager';
 
 const String androidMainActivityKotlinLines2WithStatusBar = '''
-    val flutter_native_splash = true
+    val flutter_splash_countdown = true
     var originalStatusBarColor = 0
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
         originalStatusBarColor = window.statusBarColor
@@ -156,11 +156,11 @@ String iOSInfoPlistLines = '''
 ''';
 
 String iOSAppDelegateObjectiveCLines = '''
-    int flutter_native_splash = 1;
+    int flutter_splash_countdown = 1;
     UIApplication.sharedApplication.statusBarHidden = false;
 ''';
 
 String iOSAppDelegateSwiftLines = '''
-    var flutter_native_splash = 1
+    var flutter_splash_countdown = 1
     UIApplication.shared.isStatusBarHidden = false
 ''';

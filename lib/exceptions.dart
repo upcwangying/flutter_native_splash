@@ -4,7 +4,7 @@ class NoConfigFoundException implements Exception {
 
   @override
   String toString() {
-    return '*** ERROR [flutter_native_splash] ***\n'
+    return '*** ERROR [flutter_splash_countdown] ***\n'
         'NoConfigFoundException\n'
         '$message';
   }
@@ -16,7 +16,7 @@ class InvalidConfigException implements Exception {
 
   @override
   String toString() {
-    return '*** ERROR [flutter_native_splash] ***\n'
+    return '*** ERROR [flutter_splash_countdown] ***\n'
         'InvalidConfigException\n'
         '$message';
   }
@@ -28,7 +28,7 @@ class NoImageFileFoundException implements Exception {
 
   @override
   String toString() {
-    return '*** ERROR [flutter_native_splash] ***\n'
+    return '*** ERROR [flutter_splash_countdown] ***\n'
         'NoImageFileFoundException\n'
         '$message';
   }
@@ -40,7 +40,7 @@ class CantFindMainActivityPath implements Exception {
 
   @override
   String toString() {
-    return '*** ERROR [flutter_native_splash] ***\n'
+    return '*** ERROR [flutter_splash_countdown] ***\n'
         'CantFindMainActivityPath\n'
         '$message';
   }
@@ -52,7 +52,7 @@ class CantFindAppDelegatePath implements Exception {
 
   @override
   String toString() {
-    return '*** ERROR [flutter_native_splash] ***\n'
+    return '*** ERROR [flutter_splash_countdown] ***\n'
         'CantFindAppDelegatePath\n'
         '$message';
   }
@@ -64,7 +64,7 @@ class InvalidNativeFile implements Exception {
 
   @override
   String toString() {
-    return '*** ERROR [flutter_native_splash] ***\n'
+    return '*** ERROR [flutter_splash_countdown] ***\n'
         'InvalidNativeFile\n'
         '$message';
   }
@@ -76,7 +76,7 @@ class LaunchScreenStoryboardModified implements Exception {
 
   @override
   String toString() {
-    return '*** ERROR [flutter_native_splash] ***\n'
+    return '*** ERROR [flutter_splash_countdown] ***\n'
         'LaunchScreenStoryboardModified\n'
         '$message';
   }

@@ -1,4 +1,4 @@
-# Example for flutter_native_splash
+# Example for flutter_splash_countdown
 
 This is a brand new Flutter project created with `flutter create`.
 
@@ -20,9 +20,9 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_native_splash: ^0.1.5
+  flutter_splash_countdown: ^0.1.5
 
-flutter_native_splash:
+flutter_splash_countdown:
   image: assets/splash.png
   color: "42a5f5"
 
@@ -33,5 +33,5 @@ flutter:
 And then:
 ```
 flutter pub get
-flutter pub pub run flutter_native_splash:create
+flutter pub pub run flutter_splash_countdown:create
 ```

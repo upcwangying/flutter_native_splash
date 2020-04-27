@@ -7,7 +7,7 @@
     didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     UIApplication.sharedApplication.statusBarHidden = false;
 
-    int flutter_native_splash = 1;
+    int flutter_splash_countdown = 1;
     UIApplication.sharedApplication.statusBarHidden = false;
 
   [GeneratedPluginRegistrant registerWithRegistry:self];

@@ -1,6 +1,6 @@
-import 'package:flutter_native_splash/flutter_native_splash.dart'
-    as flutter_native_splash;
+import 'package:flutter_splash_countdown/flutter_splash_countdown.dart'
+    as flutter_splash_countdown;
 
 void main(List<String> arguments) {
-  flutter_native_splash.createSplash();
+  flutter_splash_countdown.createSplash();
 }

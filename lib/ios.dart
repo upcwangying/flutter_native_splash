@@ -1,7 +1,7 @@
 import 'package:color/color.dart';
-import 'package:flutter_native_splash/constants.dart';
-import 'package:flutter_native_splash/exceptions.dart';
-import 'package:flutter_native_splash/templates.dart' as templates;
+import 'package:flutter_splash_countdown/constants.dart';
+import 'package:flutter_splash_countdown/exceptions.dart';
+import 'package:flutter_splash_countdown/templates.dart' as templates;
 import 'package:image/image.dart' as img;
 import 'dart:io';
 
@@ -240,8 +240,8 @@ Future _objectiveCOrSwift() async {
 bool _needToUpdateAppDelegate(String language, List<String> lines) {
   bool foundExisting = false;
 
-  String objectiveCLine = 'int flutter_native_splash = 1;';
-  String swiftLine = 'var flutter_native_splash = 1';
+  String objectiveCLine = 'int flutter_splash_countdown = 1;';
+  String swiftLine = 'var flutter_splash_countdown = 1';
 
   for (int x = 0; x < lines.length; x++) {
     String line = lines[x];
